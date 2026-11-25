@@ -1,0 +1,7 @@
+name,property,literature,pred,lo,hi,training_label_present,abs_error,inside_90,source
+Cyrene,alpha,0.0,-0.07496203851050137,-0.27733612843873734,0.1274120514177346,False,0.07496203851050137,True,"Sherwood et al., Chem. Commun. 2014, 50, 9650 (SI)"
+Cyrene,beta,0.61,0.39796,0.20749120000000018,0.5884287999999998,False,0.21204,False,"Sherwood et al., Chem. Commun. 2014, 50, 9650 (SI)"
+Cyrene,pi_star,0.93,0.9010621665757891,0.7108599501644213,1.091264382987157,False,0.028937833424210968,True,"Sherwood et al., Chem. Commun. 2014, 50, 9650 (SI)"
+Cyrene,dD,18.8,18.54038928564098,17.375441656707824,19.705336914574136,False,0.2596107143590203,True,"Hansen value cited in Sherwood 2014 (computed, not measured)"
+Cyrene,dP,10.6,12.265617490375142,6.533430384403677,17.997804596346608,False,1.6656174903751424,True,"Hansen value cited in Sherwood 2014 (computed, not measured)"
+Cyrene,dH,6.9,6.103166173374968,2.3012353673930566,9.905096979356879,False,0.7968338266250328,True,"Hansen value cited in Sherwood 2014 (computed, not measured)"

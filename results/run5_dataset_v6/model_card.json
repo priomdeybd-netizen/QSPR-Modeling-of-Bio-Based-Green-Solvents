@@ -1,0 +1,127 @@
+{
+  "title": "QSPR/ML screening of bio-based replacements for DMF/NMP/DMAc",
+  "created": "2026-11-24",
+  "seed": 42,
+  "config": {
+    "FAST": false,
+    "USE_UPLOADED_CSV": false,
+    "MIN_LABELS": 12,
+    "FEATURE_SETS": [
+      "RDKit2D",
+      "RDKit2D+MACCS",
+      "Morgan"
+    ],
+    "TARGETS": [
+      "bp_C",
+      "flash_C",
+      "log_eps",
+      "dD",
+      "dP",
+      "dH",
+      "alpha",
+      "beta",
+      "pi_star"
+    ],
+    "REFS": [
+      "DMF",
+      "NMP",
+      "DMAc"
+    ],
+    "BP_WINDOW": [
+      150,
+      260
+    ],
+    "FLASH_MIN": 60,
+    "UNKNOWN_HAZARD": 0.5,
+    "SIM_MIN": 0.25,
+    "Q2_USABLE": 0.5,
+    "WEIGHTS": {
+      "perf": 0.45,
+      "hazard": 0.25,
+      "bio": 0.2,
+      "window": 0.1
+    },
+    "N_MC": 1000
+  },
+  "n_solvents": 102,
+  "models": {
+    "alpha": {
+      "model": "Ridge",
+      "featureset": "RDKit2D+MACCS",
+      "params": {
+        "regressor__est__alpha": 0.1,
+        "regressor__sel__k": 10
+      }
+    },
+    "beta": {
+      "model": "ExtraTrees",
+      "featureset": "RDKit2D",
+      "params": {}
+    },
+    "bp_C": {
+      "model": "GPR",
+      "featureset": "RDKit2D+MACCS",
+      "params": {
+        "regressor__sel__k": 10
+      }
+    },
+    "dD": {
+      "model": "GradBoost",
+      "featureset": "RDKit2D+MACCS",
+      "params": {}
+    },
+    "dH": {
+      "model": "Ridge",
+      "featureset": "RDKit2D+MACCS",
+      "params": {
+        "regressor__est__alpha": 0.1,
+        "regressor__sel__k": 10
+      }
+    },
+    "dP": {
+      "model": "GPR",
+      "featureset": "RDKit2D",
+      "params": {
+        "regressor__sel__k": 20
+      }
+    },
+    "log_eps": {
+      "model": "ExtraTrees",
+      "featureset": "RDKit2D+MACCS",
+      "params": {}
+    },
+    "pi_star": {
+      "model": "GradBoost",
+      "featureset": "RDKit2D",
+      "params": {}
+    }
+  },
+  "cv_q2": {
+    "alpha": 0.8665683749185741,
+    "beta": 0.7461169724862928,
+    "bp_C": 0.4219518162977681,
+    "dD": 0.7220596745065055,
+    "dH": 0.7450297226396351,
+    "dP": 0.6610751410511025,
+    "log_eps": 0.6909676213891095,
+    "pi_star": 0.7040231607501812
+  },
+  "cv_rmse": {
+    "alpha": 0.12266242855692426,
+    "beta": 0.12694065297575705,
+    "bp_C": 49.857243826549336,
+    "dD": 0.7668084985906561,
+    "dH": 3.9794116432069764,
+    "dP": 3.559109476897407,
+    "log_eps": 0.2657152146995541,
+    "pi_star": 0.14036474921929476
+  },
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "rdkit": "2026.09.2"
+  },
+  "intended_use": "rank candidate solvents for experimental follow-up; NOT a substitute for toxicological assessment"
+}

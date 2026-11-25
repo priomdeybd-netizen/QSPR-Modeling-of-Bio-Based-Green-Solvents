@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite it as below."
+title: "Machine Learning-Driven Screening and QSPR Modeling of Bio-Based Green Solvents to Replace DMF, NMP and DMAc"
+type: software
+authors:
+  - family-names: "Dey"
+    given-names: "Priom"
+    orcid: "https://orcid.org/0009-0007-5722-8240"
+    affiliation: "Department of Chemistry, Shahjalal University of Science and Technology, Sylhet, Bangladesh"
+  - family-names: "Talukder"
+    given-names: "Avro"
+    orcid: "https://orcid.org/0009-0007-6996-7673"
+    affiliation: "Department of Chemistry, Shahjalal University of Science and Technology, Sylhet, Bangladesh"
+  - family-names: "Roy"
+    given-names: "Yuvraj"
+    affiliation: "Department of Chemistry, Shahjalal University of Science and Technology, Sylhet, Bangladesh"
+license: MIT
+date-released: "2026-11-25"
+# doi: "ADD THE ZENODO DOI HERE AFTER THE FIRST RELEASE"
+# repository-code: "ADD THE GITHUB URL HERE"
