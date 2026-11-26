@@ -1,7 +1,0 @@
-name,property,literature,source
-Cyrene,alpha,0.00,"Sherwood et al., Chem. Commun. 2014, 50, 9650 (SI Tables S1/S2)"
-Cyrene,beta,0.61,"Sherwood et al., Chem. Commun. 2014, 50, 9650 (SI Tables S1/S2)"
-Cyrene,pi_star,0.93,"Sherwood et al., Chem. Commun. 2014, 50, 9650 (SI Tables S1/S2)"
-Cyrene,dD,18.8,"Hansen value cited in Sherwood 2014 (computed with HSPiP, not measured)"
-Cyrene,dP,10.6,"Hansen value cited in Sherwood 2014 (computed with HSPiP, not measured)"
-Cyrene,dH,6.9,"Hansen value cited in Sherwood 2014 (computed with HSPiP, not measured)"
