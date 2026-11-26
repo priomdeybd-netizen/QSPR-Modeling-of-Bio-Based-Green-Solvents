@@ -1,0 +1,29 @@
+name,cid,hcodes,screen
+Glycerol carbonate,97944.0,,no data
+TMO,,,lookup failed
+NBP,61361.0,H315 H319 H335,no CMR code listed
+PolarClean,,,lookup failed
+Ethyl levulinate,10883.0,,no data
+Furfural,7362.0,H226 H301 H311 H312 H315 H319 H330 H331 H335 H351 H370 H372 H373 H402 H412,CMR code present
+Diethyl carbonate,7766.0,H226 H315 H319 H335,no CMR code listed
+Triacetin,5541.0,,no data
+Butyl lactate,8738.0,H227 H315 H318 H319 H335 H336,no CMR code listed
+Tetrahydrofurfuryl alcohol,7360.0,H227 H315 H319 H336 H360 H360Df H361 H373,CMR code present
+Dimethyllactamide,,,lookup failed
+Limonene,22311.0,H226 H304 H315 H317 H319 H400 H410,no CMR code listed
+p-Cymene,7463.0,H226 H304 H315 H319 H331 H336 H401 H411 H412,no CMR code listed
+Dioxolane,12586.0,H225 H303 H316 H318 H319 H341 H360 H361,CMR code present
+NOP,92236.0,,no data
+"1,3-Propanediol",10442.0,H315,no CMR code listed
+Glycerol,753.0,,no data
+Methyl lactate,11040.0,H226 H319 H335,no CMR code listed
+Levulinic acid,11579.0,H302 H315 H317 H318 H319,no CMR code listed
+Diethyl succinate,31249.0,,no data
+Dimethyl glutarate,14242.0,H336 H373 H402,no CMR code listed
+Dimethyl adipate,12329.0,H319,no CMR code listed
+Dimethyl 2-methylglutarate,,,lookup failed
+Furfuryl alcohol,7361.0,H227 H301 H302 H311 H312 H315 H317 H319 H330 H331 H335 H336 H351 H372 H373,CMR code present
+2-Methylfuran,10797.0,H225 H301 H319 H330 H331 H411,no CMR code listed
+"2,5-Dimethylfuran",12266.0,H225 H302,no CMR code listed
+"1,8-Cineole",2758.0,H226 H317,no CMR code listed
+alpha-Pinene,6654.0,H226 H302 H304 H315 H317 H318 H371 H372 H373 H400 H410,no CMR code listed

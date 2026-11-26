@@ -1,0 +1,9 @@
+target,featureset,model,n,Q2,RMSE,usable
+alpha,RDKit2D+MACCS,Ridge,57,0.867,0.123,True
+beta,RDKit2D,ExtraTrees,57,0.746,0.127,True
+bp_C,RDKit2D+MACCS,GPR,27,0.422,49.857,False
+dD,RDKit2D+MACCS,GradBoost,58,0.722,0.767,True
+dH,RDKit2D+MACCS,Ridge,58,0.745,3.979,True
+dP,RDKit2D,GPR,58,0.661,3.559,True
+log_eps,RDKit2D+MACCS,ExtraTrees,69,0.691,0.266,True
+pi_star,RDKit2D,GradBoost,54,0.704,0.14,True
